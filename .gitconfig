@@ -1,0 +1,10 @@
+[core]
+  editor = nano
+  fileMode = false
+[http]
+  sslverify = false
+[pull]
+  ff = only
+[user]
+  name = Priidu Neemre
+  email = priidu.neemre@gmail.com
