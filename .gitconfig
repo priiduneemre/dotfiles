@@ -1,8 +1,5 @@
 [core]
   editor = nano
-  fileMode = false
-[http]
-  sslverify = false
 [pull]
   ff = only
 [user]

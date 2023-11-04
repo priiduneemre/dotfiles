@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Custom shell aliases for CLI productivity
+
+alias apt-get="sudo apt-get"
+alias chgrp="chgrp --preserve-root"
+alias chmod="chmod --preserve-root"
+alias chown="chown --preserve-root"
+alias clr="clear"
+alias devel="cs ~/devel"
+alias dfh="df -h"
+alias dl="cs ~/Downloads"
+alias dnf="sudo dnf"
+alias duh="du -shc *"
+alias fping="ping -c 100 -i 0.2"
+alias gpp="git pull --prune"
+alias gpumeminfo="grep -i --color memory /var/log/Xorg.0.log"
+alias h="history"
+alias hh="cat ~/hyperion/stash/zsh/.zsh_history"
+alias home="cs ~"
+alias krestart="kquitapp5 plasmashell && kstart5 plasmashell"
+alias la="ls -la"
+alias md="mkdir -pv"
+alias now="date +%T"
+alias path="echo -e \${PATH//:/\\n}"
+alias ping="ping -c 5"
+alias ports="netstat -tulanp"
+alias raminfo="sudo dmidecode --type 17"
+alias reboot="sudo shutdown -r now"
+alias rm="rm -I --preserve-root"
+alias shutdown="sudo shutdown -h now"
+alias syncprg="watch -d grep -e Dirty: -e Writeback: /proc/meminfo"
+alias today="date +%d-%m-%Y"
+alias wanip4="dig @ns1.google.com TXT o-o.myaddr.l.google.com +short -4"
+alias wanip6="dig @ns1.google.com TXT o-o.myaddr.l.google.com +short -6"
+
+alias wanip=wanip4
