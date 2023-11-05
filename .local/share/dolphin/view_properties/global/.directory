@@ -1,6 +1,8 @@
 [Dolphin]
-HeaderColumnWidths=693,72,142,110
-Timestamp=2023,1,10,15,45,11.089
+HeaderColumnWidths=693,72,142,189
+SortOrder=1
+SortRole=modificationtime
+Timestamp=2023,11,4,19,19,8.719
 Version=4
 ViewMode=1
 VisibleRoles=Details_text,Details_size,Details_modificationtime,Details_type,CustomizedDetails
