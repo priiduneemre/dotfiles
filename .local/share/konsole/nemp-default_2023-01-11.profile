@@ -9,8 +9,8 @@ CursorShape=1
 LocalTabTitleFormat=%D : %n
 Name=Nemp default (2023-01-11)
 Parent=FALLBACK/
-TerminalColumns=120
-TerminalRows=30
+TerminalColumns=160
+TerminalRows=60
 
 [Scrolling]
 HistorySize=100000
