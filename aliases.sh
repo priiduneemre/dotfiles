@@ -2,6 +2,7 @@
 
 # Custom shell aliases for CLI productivity
 
+alias aliasdef="nano ~/devel/dotfiles/aliases.sh"
 alias apt-get="sudo apt-get"
 alias chgrp="chgrp --preserve-root"
 alias chmod="chmod --preserve-root"
@@ -13,6 +14,7 @@ alias dl="cs ~/Downloads"
 alias dnf="sudo dnf"
 alias duh="du -shc *"
 alias fping="ping -c 100 -i 0.2"
+alias funcdef="nano ~/devel/dotfiles/functions.sh"
 alias gpp="git pull --prune"
 alias gpumeminfo="grep -i --color memory /var/log/Xorg.0.log"
 alias h="history"

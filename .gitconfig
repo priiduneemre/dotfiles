@@ -1,5 +1,7 @@
 [core]
   editor = nano
+[init]
+  defaultBranch = main
 [pull]
   ff = only
 [user]
