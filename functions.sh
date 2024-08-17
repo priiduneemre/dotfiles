@@ -18,9 +18,12 @@ function precmd() {
   echo -ne "\033]0;${PWD/#$HOME/~}\007"
 }
 
+function ssha() {
+  ssh-add "$HOME/.ssh/${1}"
+}
+
 function udd() {
   udisks --detach "/dev/${1}"
-
 }
 
 function wreq() {
