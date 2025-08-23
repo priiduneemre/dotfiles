@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=Git GUI that improves development productivity
+Exec=/opt/smartgit/bin/smartgit.sh
+Icon=/opt/smartgit/bin/smartgit.svg
+Name=SmartGit 24.1.4
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

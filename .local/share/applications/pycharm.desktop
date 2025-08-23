@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=Capable and Ergonomic IDE for Python
+Exec=/opt/pycharm-2025.2.0/bin/pycharm
+Icon=/opt/pycharm-2025.2.0/bin/pycharm.svg
+Name=PyCharm 2025.2.0
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

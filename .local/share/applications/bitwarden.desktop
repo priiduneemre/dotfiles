@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=Manage, store, secure, and share unlimited passwords
+Exec=/opt/bitwarden/Bitwarden-2022.5.1-x86_64.AppImage
+GenericName=Password Manager
+Icon=/opt/bitwarden/bitwarden.svg
+MimeType=x-scheme-handler/bitwarden;
+Name=Bitwarden
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

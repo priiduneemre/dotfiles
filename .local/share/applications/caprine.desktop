@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=Elegant Facebook Messenger desktop app
+Exec=/opt/caprine-2.60.3/caprine-2.60.3.AppImage
+Icon=/opt/caprine-2.60.3/caprine.svg
+Name=Caprine 2.60.3
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

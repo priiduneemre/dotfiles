@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=Capable and Ergonomic IDE for DB
+Exec=/opt/datagrip-2025.2.2/bin/datagrip
+Icon=/opt/datagrip-2025.2.2/bin/datagrip.svg
+Name=DataGrip 2025.2.2
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=Lightning-smart PHP IDE
+Exec=/opt/phpstorm-2025.2.0/bin/phpstorm %f
+Icon=/opt/phpstorm-2025.2.0/bin/phpstorm.svg
+Name=PhpStorm 2025.2.0
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

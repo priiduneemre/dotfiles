@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=Graphical tool for working with containers and K8s
+Exec=/opt/podman-desktop-1.20.2/podman-desktop
+Icon=/opt/podman-desktop-1.20.2/podman-desktop.svg
+Name=Podman Desktop 1.20.2
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

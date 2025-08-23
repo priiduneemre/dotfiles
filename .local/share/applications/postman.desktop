@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=A collaboration platform for API development
+Exec=/opt/postman-11.59.7/Postman
+Icon=/opt/postman-11.59.7/app/icons/icon_128x128.png
+Name=Postman 11.59.7
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

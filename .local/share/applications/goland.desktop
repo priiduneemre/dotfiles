@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=The complete IDE crafted for Gophers
+Exec=/opt/goland-2025.2.0/bin/goland %f
+Icon=/opt/goland-2025.2.0/bin/goland.svg
+Name=GoLand 2025.2.0
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
