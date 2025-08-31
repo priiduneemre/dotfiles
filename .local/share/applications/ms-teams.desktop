@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment=Microsoft Teams client
+Exec=/opt/teams-for-linux/teams-for-linux %U
+Icon=teams-for-linux
+MimeType=x-scheme-handler/msteams;
+Name=Microsoft Teams
+NoDisplay=false
+Path=
+StartupNotify=true
+StartupWMClass=teams-for-linux
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

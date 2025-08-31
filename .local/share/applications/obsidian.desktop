@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=Knowledge base that works on local MD files
+Exec=/opt/obsidian-1.9.12/Obsidian-1.9.12.AppImage
+Icon=/opt/obsidian-1.9.12/obsidian.svg
+Name=Obsidian 1.9.12
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

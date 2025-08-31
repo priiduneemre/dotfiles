@@ -113,8 +113,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/devel/dotfiles/functions.sh
-source ~/devel/dotfiles/aliases.sh
+source ~/.zshrc.d/functions
+source ~/.zshrc.d/aliases
 
 source <(ng completion script)
 source /home/nemp/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

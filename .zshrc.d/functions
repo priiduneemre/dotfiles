@@ -11,7 +11,7 @@ function dh() {
 }
 
 function ofv() {
-  sudo openfortivpn -c "/etc/openfortivpn/${1}" --use-resolvconf=1
+  sudo openfortivpn -c "/etc/openfortivpn/${1}"
 }
 
 function precmd() {

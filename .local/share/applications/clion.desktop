@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=Cross-platform IDE for C and C++
+Exec=/opt/clion-2025.1.3/bin/clion
+Icon=/opt/clion-2025.1.3/bin/clion.svg
+Name=CLion 2025.1.3
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
