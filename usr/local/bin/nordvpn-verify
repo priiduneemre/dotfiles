@@ -1,0 +1,39 @@
+#!/bin/sh
+
+# Verify NordVPN connection, reset if necessary
+
+main() {
+  if ! is_installed; then
+    echo "NordVPN is not installed, nothing to do"
+    exit 0
+  fi
+  if ! is_connected; then
+    echo "NordVPN is not running, nothing to do"
+    exit 0
+  fi
+  echo "Checking NordVPN connection"
+  ensure_internet "$@"
+}
+
+is_installed() {
+  command -v nordvpn > /dev/null 2>&1
+}
+
+is_connected() {
+  nordvpn status | grep -q "Connected"
+}
+
+ensure_internet() {
+  if has_internet; then
+    echo "Connection is up, nothing to do"
+  else
+    echo "Connection is down, attempting to reconnect"
+    nordvpn-reset "$@"
+  fi
+}
+
+has_internet() {
+  ping -c 3 8.8.8.8 > /dev/null 2>&1
+}
+
+main "$@"

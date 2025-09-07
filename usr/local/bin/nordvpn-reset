@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# Reconnect to the specified NordVPN location
+
+main() {
+  if ! is_installed; then
+    echo "NordVPN is not installed, nothing to do"
+    exit 0
+  fi
+  reconnect "$@"
+}
+
+is_installed() {
+  command -v nordvpn > /dev/null 2>&1
+}
+
+reconnect() {
+  echo "Reconnecting to NordVPN location '$*'"
+  nordvpn status
+  nordvpn disconnect
+  nordvpn connect "$@"
+  nordvpn status
+}
+
+main "$@"
