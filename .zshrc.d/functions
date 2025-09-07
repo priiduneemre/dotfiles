@@ -1,13 +1,9 @@
 #!/bin/bash
 
-# Custom shell functions for CLI productivity
+# Custom functions
 
 function cs() {
   cd "$1" && ls -la
-}
-
-function dh() {
-  dolphin --select "$1"
 }
 
 function ofv() {
@@ -24,8 +20,4 @@ function ssha() {
 
 function udd() {
   udisks --detach "/dev/${1}"
-}
-
-function wreq() {
-  dnf repoquery -i -q --installed --whatrequires "$1"
 }

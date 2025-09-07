@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Environment and shell variables
+
+export EDITOR='nano'

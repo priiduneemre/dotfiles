@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Third-party CLIs and integrations
+
+source <(ng completion script)
+eval "$(fnm env --use-on-cd --shell zsh)"

@@ -4,33 +4,33 @@
   </a>
 </p>
 
-<h3 align="center">Nemp's dotfiles</h3>
+<h3 align="center">Priidu's dotfiles</h3>
 <p align="center">
   Sensible defaults for common CLI tools and applications
 </p>
 
 ## Philosophy
 
-This set of dotfiles is designed for simplicity and ease of use.
+This collection of dotfiles is designed for simplicity and ease of use.
 * Configurations are applied using plain symbolic links.
-* Project structure mirrors that of a typical Linux setup (immediately clear where everything goes).
-* Files are kept as brief as possible, with no "might need that later" filler.
+* Project layout mirrors that of a typical Linux filesystem (immediately clear where anything goes).
+* Files are kept concise, with documentation and unused settings removed.
 
-The idea is to symlink only what is needed for a particular setup and ignore the rest. The local
-repository can be periodically checked for external changes (e.g. OS package updates), which may
-then be pushed or reverted accordingly.
+The idea is to symlink only what is needed for a particular setup and ignore the rest. Once
+installed, the local copy should be periodically checked for untracked changes (e.g. from OS
+package updates). These may then be pushed or reverted accordingly.
 
 ## Requirements
 
-The shell scripts are designed for `zsh`, but most should also work fine with `bash`.
+The shell scripts are designed for `zsh`, but most will also run fine in `bash`.
 Additionally, the `.zshrc` configuration expects [`ohmyzsh`](https://github.com/ohmyzsh/ohmyzsh) to
-be installed. This may not suit your workflow, so feel free to redact accordingly.
+be installed. This may not suit your workflow, so feel free to adjust accordingly.
 
 DE-specific configurations primarily target the KDE ecosystem (Konsole, Dolphin, etc.).
 
 ## Installation
 
-Just clone the repository to your home directory and symlink what you need:
+Just clone the repository and symlink what you need:
 
 ```sh
 git clone git@github.com:priiduneemre/dotfiles.git ~/dotfiles
@@ -40,8 +40,8 @@ ln -s ~/dotfiles/.editorconfig ~/.editorconfig
 ln -s ~/dotfiles/.config/Code/User/settings.json ~/.config/Code/User/settings.json
 ```
 
-**Note:** you should incorporate your own preferences first, then replace the original files with
-the symlinks.
+**Note:** Merge your existing preferences into the cloned files first, then replace the original
+files with symlinks to the repository.
 
 ## Feedback
 

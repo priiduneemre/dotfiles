@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+# Z shell configuration
+
+# History options
+HISTFILE=~/.zsh_history
+HISTSIZE=100000000
+SAVEHIST=$HISTSIZE
+
+setopt EXTENDED_HISTORY
+setopt HIST_NO_STORE
+setopt HIST_REDUCE_BLANKS
+setopt SHARE_HISTORY

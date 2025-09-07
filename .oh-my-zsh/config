@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Oh My Zsh configuration
+
+# Main settings
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="agnoster"
+plugins=(
+  copypath
+  encode64
+  git
+  sublime
+  sudo
+  web-search
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  zshrc-d
+)
+
+# Completion settings
+HYPHEN_INSENSITIVE=true
+
+# Library settings
+DISABLE_AUTO_TITLE=true
+DISABLE_MAGIC_FUNCTIONS=true
+HIST_STAMPS="%Y-%m-%d %T"
+
+source "$ZSH/oh-my-zsh.sh"
