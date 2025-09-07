@@ -11,18 +11,18 @@
 
 ## Philosophy
 
-This collection of dotfiles is designed for simplicity and ease of use.
+This collection of dotfiles aims for simplicity and ease of use.
 * Configurations are applied using plain symbolic links.
-* Project layout mirrors that of a typical Linux filesystem (immediately clear where anything goes).
-* Files are kept concise, with documentation and unused settings removed.
+* Project layout mirrors that of a typical Linux filesystem (clear where everything goes).
+* Files are concise, with docs and unused settings removed.
 
 The idea is to symlink only what is needed for a particular setup and ignore the rest. Once
-installed, the local copy should be periodically checked for untracked changes (e.g. from OS
+installed, the local repository should be periodically checked for untracked changes (e.g., from OS
 package updates). These may then be pushed or reverted accordingly.
 
 ## Requirements
 
-The shell scripts are designed for `zsh`, but most will also run fine in `bash`.
+Most shell scripts are designed for `zsh`, but will also work fine with `bash`.
 Additionally, the `.zshrc` configuration expects [`ohmyzsh`](https://github.com/ohmyzsh/ohmyzsh) to
 be installed. This may not suit your workflow, so feel free to adjust accordingly.
 
@@ -40,8 +40,8 @@ ln -s ~/dotfiles/.editorconfig ~/.editorconfig
 ln -s ~/dotfiles/.config/Code/User/settings.json ~/.config/Code/User/settings.json
 ```
 
-**Note:** Merge your existing preferences into the cloned files first, then replace the original
-files with symlinks to the repository.
+**Note:** Merge your existing preferences into the repository files first, then replace the original
+files with symlinks.
 
 ## Feedback
 

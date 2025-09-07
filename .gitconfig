@@ -7,3 +7,10 @@
 [user]
   name = <full-name>
   email = <email-address>
+
+[includeIf "gitdir:~/devel/org1/"]
+  path = ~/devel/org1/.gitconfig
+[includeIf "gitdir:~/devel/org2/"]
+  path = ~/devel/org2/.gitconfig
+[includeIf "gitdir:~/devel/org3/"]
+  path = ~/devel/org3/.gitconfig
