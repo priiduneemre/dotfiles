@@ -12,20 +12,20 @@
 
 ## Philosophy
 
-This collection of dotfiles aims for simplicity and ease of use.
+This collection of dotfiles aims for simplicity and ease of use over elaborate tooling.
 * Configurations are applied using plain symbolic links.
-* Project layout mirrors that of a typical Linux filesystem (clear where everything goes).
+* Project layout mirrors that of a typical Linux filesystem (clear where anything goes).
 * Files are kept concise, with docs and unused settings removed.
 
 The idea is to symlink only what is needed for a particular setup and ignore the rest. Once
-installed, the local repository can be periodically checked for untracked changes (e.g., from OS
+installed, the local repository can be checked periodically for untracked changes (e.g., from OS
 package updates). These may then be pushed or reverted accordingly.
 
 ## Requirements
 
-Most shell scripts are designed for `zsh`, but will also run fine in `bash`.
+Most shell scripts are designed for `zsh`, but will also run fine with `bash`.
 Additionally, the `.zshrc` configuration expects [`ohmyzsh`](https://github.com/ohmyzsh/ohmyzsh) to
-be installed. This may not suit your workflow, so feel free to adjust accordingly.
+be installed. This may not fit your workflow, so feel free to adjust accordingly.
 
 DE-specific configurations are primarily aimed at the KDE ecosystem (Konsole, Dolphin, etc.).
 
@@ -42,8 +42,8 @@ ln -s ~/dotfiles/.config/Code/User/settings.json ~/.config/Code/User/settings.js
 ```
 
 > [!TIP]
-> Merge your existing preferences into the dotfiles pulled from the repository. Then, replace
-> your original files with symlinks.
+> Merge your existing preferences into the dotfiles pulled from the repository. Then, remove the
+> original files and replace them with symlinks.
 
 ## Feedback
 

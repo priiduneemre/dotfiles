@@ -11,6 +11,8 @@
   "editor.tabSize": 2,
   "editor.unicodeHighlight.nonBasicASCII": false,
   "git.openRepositoryInParentFolders": "never",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.selectedCompletionModel": "",
   "redhat.telemetry.enabled": false,
   "security.workspace.trust.untrustedFiles": "open",
   "[html]": {
