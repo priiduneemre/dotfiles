@@ -1,0 +1,12 @@
+set atblanks
+set autoindent
+set guidestripe 100
+set indicator
+set linenumbers
+set magic
+set mouse
+set positionlog
+set smarthome
+set stateflags
+set tabsize 2
+set zap

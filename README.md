@@ -41,8 +41,9 @@ ln -s ~/dotfiles/.editorconfig ~/.editorconfig
 ln -s ~/dotfiles/.config/Code/User/settings.json ~/.config/Code/User/settings.json
 ```
 
-💡 **Tip**: Merge your existing preferences into the dotfiles pulled from the repository. Then, replace
-your original files with the symlinks.
+> [!TIP]
+> Merge your existing preferences into the dotfiles pulled from the repository. Then, replace
+> your original files with symlinks.
 
 ## Feedback
 
