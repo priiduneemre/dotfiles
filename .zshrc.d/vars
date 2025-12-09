@@ -2,4 +2,4 @@
 
 # Environment and shell variables
 
-export EDITOR='nano'
+export EDITOR="nano"

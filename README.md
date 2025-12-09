@@ -12,10 +12,12 @@
 
 ## Philosophy
 
-This collection of dotfiles aims for simplicity and ease of use over elaborate tooling.
+_"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."_
+
+This collection of dotfiles aims for simplicity and ease of use.
 * Configurations are applied using plain symbolic links.
-* Project layout mirrors that of a typical Linux filesystem (clear where anything goes).
-* Files are kept concise, with docs and unused settings removed.
+* Project layout mirrors that of a typical Linux filesystem (for easy mapping).
+* Files are kept concise, with docs and unused options removed.
 
 The idea is to symlink only what is needed for a particular setup and ignore the rest. Once
 installed, the local repository can be checked periodically for untracked changes (e.g., from OS
@@ -42,8 +44,8 @@ ln -s ~/dotfiles/.config/Code/User/settings.json ~/.config/Code/User/settings.js
 ```
 
 > [!TIP]
-> Merge your existing preferences into the dotfiles pulled from the repository. Then, remove the
-> original files and replace them with symlinks.
+> Merge your existing preferences into the dotfiles pulled from the repository. Then, replace the
+> original files with symlinks.
 
 ## Feedback
 
