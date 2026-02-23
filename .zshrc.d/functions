@@ -2,22 +2,32 @@
 
 # Custom functions
 
-function cs() {
+cs() {
   cd "$1" && ls -la
 }
 
-function ofv() {
+ofv() {
   sudo openfortivpn -c "/etc/openfortivpn/${1}"
 }
 
-function precmd() {
+precmd() {
   echo -ne "\033]0;${PWD/#$HOME/~}\007"
 }
 
-function ssha() {
+prepath() {
+  for dir in "$@"; do
+    case ":$PATH:" in
+      *:"$dir":*) ;;
+      *) PATH="$dir:$PATH" ;;
+    esac
+  done
+  export PATH
+}
+
+ssha() {
   ssh-add "$HOME/.ssh/${1}"
 }
 
-function udd() {
+udd() {
   udisks --detach "/dev/${1}"
 }
