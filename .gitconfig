@@ -4,6 +4,7 @@
   defaultBranch = main
 [pull]
   ff = only
+  rebase = false
 [user]
   name = <full-name>
   email = <email-address>

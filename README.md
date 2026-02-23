@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/priiduneemre/dotfiles">
-    <img alt="Dotfiles logo" src="http://nemp.planet.ee/cdn/dotfiles-header-830x200.svg">
+    <img alt="Dotfiles logo" src="https://dotfiles-9yr.pages.dev/constellations-header.svg">
   </a>
 </p>
 
