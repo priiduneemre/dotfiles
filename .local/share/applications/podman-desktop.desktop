@@ -1,8 +1,8 @@
 [Desktop Entry]
 Comment=Graphical tool for working with containers and K8s
-Exec=/opt/podman-desktop-1.21.0/podman-desktop
-Icon=/opt/podman-desktop-1.21.0/podman-desktop.svg
-Name=Podman Desktop 1.21.0
+Exec=/opt/podman-desktop-1.25.1/podman-desktop
+Icon=/opt/podman-desktop-1.25.1/podman-desktop.svg
+Name=Podman Desktop 1.25.1
 NoDisplay=false
 Path=
 StartupNotify=true

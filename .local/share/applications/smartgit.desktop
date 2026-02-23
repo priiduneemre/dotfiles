@@ -2,7 +2,7 @@
 Comment=Git GUI that improves development productivity
 Exec=/opt/smartgit/bin/smartgit.sh
 Icon=/opt/smartgit/bin/smartgit.svg
-Name=SmartGit 24.1.4
+Name=SmartGit 25.1
 NoDisplay=false
 Path=
 StartupNotify=true

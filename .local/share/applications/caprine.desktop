@@ -1,8 +1,8 @@
 [Desktop Entry]
 Comment=Elegant Facebook Messenger desktop app
-Exec=/opt/caprine-2.60.3/caprine-2.60.3.AppImage
-Icon=/opt/caprine-2.60.3/caprine.svg
-Name=Caprine 2.60.3
+Exec=/opt/caprine-2.61.0/caprine-2.61.0.AppImage
+Icon=/opt/caprine-2.61.0/caprine.svg
+Name=Caprine 2.61.0
 NoDisplay=false
 Path=
 StartupNotify=true
