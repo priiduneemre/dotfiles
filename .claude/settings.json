@@ -1,0 +1,20 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python $HOME/.claude/hooks/pre-tool-use/block_rm.py"
+          },
+          {
+            "type": "command",
+            "command": "python $HOME/.claude/hooks/pre-tool-use/grep_to_rg.py"
+          }
+        ]
+      }
+    ]
+  },
+  "model": "sonnet"
+}
