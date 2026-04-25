@@ -1,8 +1,8 @@
 [Desktop Entry]
 Comment=Lightning-smart PHP IDE
-Exec=/opt/phpstorm-2025.3.3/bin/phpstorm %f
-Icon=/opt/phpstorm-2025.3.3/bin/phpstorm.svg
-Name=PhpStorm 2025.3.3
+Exec=/opt/phpstorm-2026.1.1/bin/phpstorm %f
+Icon=/opt/phpstorm-2026.1.1/bin/phpstorm.svg
+Name=PhpStorm 2026.1.1
 NoDisplay=false
 Path=
 StartupNotify=true

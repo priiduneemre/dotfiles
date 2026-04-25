@@ -1,8 +1,8 @@
 [Desktop Entry]
 Comment=The smartest JavaScript IDE
-Exec=/opt/webstorm-2025.3.3/bin/webstorm %f
-Icon=/opt/webstorm-2025.3.3/bin/webstorm.svg
-Name=WebStorm 2025.3.3
+Exec=/opt/webstorm-2026.1.1/bin/webstorm %f
+Icon=/opt/webstorm-2026.1.1/bin/webstorm.svg
+Name=WebStorm 2026.1.1
 NoDisplay=false
 Path=
 StartupNotify=true

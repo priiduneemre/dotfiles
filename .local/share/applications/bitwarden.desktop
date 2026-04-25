@@ -1,6 +1,6 @@
 [Desktop Entry]
 Comment=Manage, store, secure, and share unlimited passwords
-Exec=/opt/bitwarden/Bitwarden-2025.9.0-x86_64.AppImage
+Exec=/opt/bitwarden/Bitwarden-2026.3.1-x86_64.AppImage
 GenericName=Password Manager
 Icon=/opt/bitwarden/bitwarden.svg
 MimeType=x-scheme-handler/bitwarden;

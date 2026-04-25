@@ -1,8 +1,8 @@
 [Desktop Entry]
 Comment=The complete IDE crafted for Gophers
-Exec=/opt/goland-2025.3.3/bin/goland %f
-Icon=/opt/goland-2025.3.3/bin/goland.svg
-Name=GoLand 2025.3.3
+Exec=/opt/goland-2026.1.1/bin/goland %f
+Icon=/opt/goland-2026.1.1/bin/goland.svg
+Name=GoLand 2026.1.1
 NoDisplay=false
 Path=
 StartupNotify=true

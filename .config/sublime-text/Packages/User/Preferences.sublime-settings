@@ -12,6 +12,7 @@
   [
     "Vintage",
   ],
+  "index_files": true,
   "rulers":
   [
     72,
@@ -23,5 +24,5 @@
   "tab_size": 2,
   "theme": "Default.sublime-theme",
   "update_check": false,
-  "word_wrap": false,
+  "word_wrap": false
 }
