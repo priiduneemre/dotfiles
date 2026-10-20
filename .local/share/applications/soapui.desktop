@@ -1,8 +1,8 @@
 [Desktop Entry]
 Comment=Testing tool for SOAP and REST APIs
-Exec=/opt/soapui-5.7.2/bin/soapui.sh
-Icon=/opt/soapui-5.7.2/bin/soapui.svg
-Name=SoapUI 5.7.2
+Exec=/opt/soapui-5.10.0/bin/soapui.sh
+Icon=/opt/soapui-5.10.0/bin/soapui.svg
+Name=SoapUI 5.10.0
 NoDisplay=false
 Path=
 StartupNotify=true

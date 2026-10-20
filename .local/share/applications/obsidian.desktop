@@ -1,8 +1,8 @@
 [Desktop Entry]
 Comment=Knowledge base that works on local MD files
-Exec=/opt/obsidian-1.9.12/Obsidian-1.9.12.AppImage
-Icon=/opt/obsidian-1.9.12/obsidian.svg
-Name=Obsidian 1.9.12
+Exec=/opt/obsidian-1.14.4/Obsidian-1.14.4.AppImage
+Icon=/opt/obsidian-1.14.4/obsidian.svg
+Name=Obsidian 1.14.4
 NoDisplay=false
 Path=
 StartupNotify=true
